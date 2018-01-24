@@ -14,7 +14,6 @@ void loop() {
   if(incomingByte ='X'){
       for(int i=0;i<=3;i++){
       digitalWrite(LED,LOW);//BLINK
-      delay(500);//+4S
       digitalWrite(LED,HIGH);
       delay(500);
       }
